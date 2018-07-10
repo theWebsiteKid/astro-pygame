@@ -16,3 +16,9 @@ def game():
         def regenerate_health_active(self):
         #↓ Regenerate 3/100 health per second for inactive / benched characters
         def regenerate_health_inactive(self):
+    #↓ Animal sub class
+    class Animal(Character):
+    #↓ Humanoid sub class
+    class Humanoid(Character):
+    #↓ Robot sub class
+    class Robot(Character):
