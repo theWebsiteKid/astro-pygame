@@ -1,10 +1,20 @@
+# Import pygame and additional libraries
+import pygame
+from random import randint
+
+# Key mapping for arrow keys
+KEY_UP = 273
+KEY_DOWN = 274
+KEY_LEFT = 276
+KEY_RIGHT = 275
+
 # Key mapping for character swap
 KEY_Z = 122
 KEY_X = 120
 KEY_C = 99
 
 # Key mapping for special moves
-KEY_SPACE = 32
+KEY_SHIFT = 16
 
 # Character superclass
 class Character(object):
